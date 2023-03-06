@@ -1,0 +1,22 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\main",
+    "\\src\\main\\kotlin",
+    "\\src\\main\\kotlin\\hu",
+    "\\src\\main\\kotlin\\hu\\obuda",
+    "\\src\\main\\kotlin\\hu\\obuda\\devops",
+    "\\src\\main\\kotlin\\hu\\obuda\\devops\\fibonaccirestapi",
+    "\\src\\main\\kotlin\\hu\\obuda\\devops\\fibonaccirestapi\\service",
+    "\\src\\test",
+    "\\src\\test\\kotlin",
+    "\\src\\test\\kotlin\\hu",
+    "\\src\\test\\kotlin\\hu\\obuda",
+    "\\src\\test\\kotlin\\hu\\obuda\\devops",
+    "\\src\\test\\kotlin\\hu\\obuda\\devops\\fibonaccirestapi",
+    "\\src\\test\\kotlin\\hu\\obuda\\devops\\fibonaccirestapi\\service"
+  ],
+  "SelectedNode": "\\src\\main\\kotlin\\hu\\obuda\\devops\\fibonaccirestapi\\controller\\FibonacciController.kt",
+  "PreviewInSolutionExplorer": false
+}
