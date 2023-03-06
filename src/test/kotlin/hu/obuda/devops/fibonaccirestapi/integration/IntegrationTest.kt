@@ -45,5 +45,23 @@ class IntegrationTest {
         // then
         Assertions.assertNotNull(thrown)
     }
+    @Test
+    @Throws(Exception::class)
+    fun callFibonacciEndpointWithNegative() {
+        // given
+
+        // when
+        val thrown = Assertions.assertThrows(
+            RestClientException::class.java
+        ) {
+            restTemplate.getForEntity(
+                "http://localhost:8080/fibonacci?n=-1",
+                String::class.java
+            )
+        }
+
+        // then
+        Assertions.assertNotNull(thrown)
+    }
 
 }
