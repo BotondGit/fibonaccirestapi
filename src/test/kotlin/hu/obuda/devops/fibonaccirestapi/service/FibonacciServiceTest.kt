@@ -30,12 +30,12 @@ class FibonacciServiceTest {
         Assertions.assertEquals(1, result)
     }
     @Test
-    fun shouldReturn4181WhenCall20(){
+    fun shouldReturn6765WhenCall20(){
         //given
         //when
         val result: Int= underTest.fibonacci(20)
         //then
-        Assertions.assertEquals(4181,result)
+        Assertions.assertEquals(6765,result)
     }
     // TODO - Test with greater numbers and test edge cases
 }
